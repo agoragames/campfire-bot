@@ -1,0 +1,7 @@
+development:
+  login: 'sample'
+  password: 'sample'
+
+production:
+  login: 'sample'
+  password: 'sample'

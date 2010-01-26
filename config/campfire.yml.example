@@ -1,0 +1,15 @@
+development:
+  token: 'sample'
+  room_id: 000000
+  bot_name: 'campfire-bot'
+  base_uri: '37s.campfirenow.com'
+  streaming_uri: 'streaming.campfirenow.com'
+
+production:
+  token: 'sample'
+  room_id: 000000
+  bot_name: 'campfire-bot'
+  base_uri: '37s.campfirenow.com'
+  streaming_uri: 'streaming.campfirenow.com'
+  
+  

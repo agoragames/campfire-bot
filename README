@@ -1,0 +1,36 @@
+Campfire Bot Readme
+===================
+
+This is a first pass at a campfire bot, which will has rudimentary support for commands; with 'tweet' being the only command support at this time.
+
+Directories
+===========
+
+config/
+  Environment configuration files
+
+lib/
+  Add commands here
+
+log/
+  Log files based on the environment name
+
+spec/
+  rspec's home
+
+Getting Started
+===============
+
+1) Copy the twitter.yml.example file to twitter.yml
+2) Edit the file and add the appropriate settings
+3) Copy the campfire.yml.example file to campfire.yml
+4) Edit the file and add the appropriate settings
+
+Contributions
+=============
+
+I'd love help.  Here's some ideas I'm planning to work on:
+
+* Finish support for multiple commands, adding convenient rake tasks for generating new ones
+* Add reconnect support
+* Post information back to campfire (errors, etc.)
