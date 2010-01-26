@@ -11,11 +11,18 @@ end
 
 begin
   require 'twitter'
-  require 'twitter/json_stream'
 rescue LoadError
   $stderr.puts "Missing gem. Please run 'gem install twitter'."
   exit 1
 end
+
+begin
+  require 'twitter/json_stream'
+  rescue LoadError
+    $stderr.puts "Missing gem. Please run 'gem install twitter-stream'."
+  exit 1
+end
+
 
 begin
   require 'tmail'
